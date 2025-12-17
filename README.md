@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -19,7 +18,7 @@
             <button class="mobile-menu-btn" id="mobile-menu-btn">
                 <i class="fas fa-bars"></i>
             </button>
-   <nav id="main-nav">
+            <nav id="main-nav">
                 <ul>
                     <li><a href="#home" class="nav-link active" data-page="home">Главная</a></li>
                     <li><a href="#catalog" class="nav-link" data-page="catalog">Каталог</a></li>
@@ -27,7 +26,7 @@
                     <li><a href="#reviews" class="nav-link" data-page="reviews">Отзывы</a></li>
                     <li><a href="#contacts" class="nav-link" data-page="contacts">Контакты</a></li>
                 </ul>
-            </nav>     
+            </nav>
             <div class="header-right">
                 <div class="cart-icon" id="cart-icon">
                     <i class="fas fa-shopping-cart"></i>
@@ -35,7 +34,7 @@
                 </div>
             </div>
         </div>
-    </header>   
+    </header>
     <!-- Cart Modal -->
     <div class="cart-modal" id="cart-modal">
         <div class="cart-header">
@@ -83,7 +82,7 @@
             <section class="categories">
                 <div class="section-title">
                     <h2>Категории товаров</h2>
-                </div> 
+                </div>          
                 <div class="categories-grid">
                     <div class="category-card" data-category="toys">
                         <div class="category-icon">
@@ -110,30 +109,30 @@
                         <a href="#catalog" class="btn btn-small" data-page="catalog" data-filter="shoes">Смотреть обувь</a>
                     </div>
                 </div>
-            </section>      
+            </section>
             <!-- Featured Products -->
             <section class="featured-products">
                 <div class="section-title">
                     <h2>Хиты продаж</h2>
-                </div> 
+                </div>
                 <div class="products-grid" id="featured-products">
                     <!-- Featured products will be dynamically inserted here -->
                 </div>
             </section>
         </div>
-    </section> 
+    </section>
     <!-- Catalog Page -->
     <section class="page" id="catalog-page">
         <div class="container">
             <div class="section-title">
                 <h2>Каталог товаров</h2>
-            </div> 
+            </div>
             <div class="products-filter">
                 <button class="filter-btn active" data-filter="all">Все товары</button>
                 <button class="filter-btn" data-filter="toys">Игрушки</button>
                 <button class="filter-btn" data-filter="clothing">Одежда</button>
                 <button class="filter-btn" data-filter="shoes">Обувь</button>
-            </div>   
+            </div>
             <div class="products-grid" id="catalog-products">
                 <!-- Catalog products will be dynamically inserted here -->
             </div>
@@ -171,7 +170,7 @@
                         <span class="countdown-label">Секунд</span>
                     </div>
                 </div>
-            </div>  
+            </div>
             <div class="section-title">
                 <h2>Товары со скидкой</h2>
             </div>
@@ -263,7 +262,7 @@
                             <label for="reviewer-name">Ваше имя</label>
                             <input type="text" id="reviewer-name" required>
                         </div>
-                                              <div class="form-group">
+                        <div class="form-group">
                             <label>Рейтинг</label>
                             <div class="rating-input" id="rating-stars">
                                 <i class="fas fa-star" data-rating="1"></i>
@@ -277,7 +276,7 @@
                         <div class="form-group">
                             <label for="review-text">Ваш отзыв</label>
                             <textarea id="review-text" required></textarea>
-                        </div>    
+                        </div>
                         <button type="submit" class="btn">Отправить отзыв</button>
                     </form>
                 </div>
@@ -297,11 +296,11 @@
                         <div class="form-group">
                             <label for="full-name">ФИО *</label>
                             <input type="text" id="full-name" required>
-                        </div>  
+                        </div>
                         <div class="form-group">
                             <label for="email">Email адрес *</label>
                             <input type="email" id="email" required>
-                        </div> 
+                        </div>
                         <div class="form-group">
                             <label for="phone">Номер телефона *</label>
                             <input type="tel" id="phone" required>
@@ -309,7 +308,7 @@
                         <div class="form-group">
                             <label for="address">Адрес доставки *</label>
                             <textarea id="address" required></textarea>
-                        </div> 
+                        </div>
                         <h3>Способ оплаты</h3>
                         <div class="payment-methods">
                             <div class="payment-method active" data-method="card">
@@ -321,7 +320,7 @@
                                 <p>Наличными при получении</p>
                             </div>
                         </div>
-                        <input type="hidden" id="payment-method" value="card">     
+                        <input type="hidden" id="payment-method" value="card">
                         <!-- Card details (shown when card is selected) -->
                         <div id="card-details">
                             <div class="form-group">
@@ -336,7 +335,7 @@
                                 <label for="card-cvc">CVC код</label>
                                 <input type="text" id="card-cvc" placeholder="123">
                             </div>
-                        </div>  
+                        </div>
                         <button type="submit" class="btn" id="place-order-btn">Оформить заказ</button>
                     </form>
                 </div>
@@ -352,7 +351,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
     <!-- Order Success Page -->
     <section class="page" id="order-success-page">
         <div class="container">
@@ -421,15 +420,15 @@
                         <div class="form-group">
                             <label for="contact-name">Ваше имя</label>
                             <input type="text" id="contact-name" required>
-                        </div>       
+                        </div>
                         <div class="form-group">
                             <label for="contact-email">Ваш Email</label>
                             <input type="email" id="contact-email" required>
-                        </div>
+                        </div>    
                         <div class="form-group">
                             <label for="contact-message">Ваше сообщение</label>
                             <textarea id="contact-message" required></textarea>
-                        </div>    
+                        </div>
                         <button type="submit" class="btn">Отправить сообщение</button>
                     </form>
                     <div class="map-container">
@@ -484,7 +483,7 @@
             </div>
         </div>
     </footer>
-    <script src="script.js">    
+    <script src="script.js">      
     </script>
 </body>
 </html>
